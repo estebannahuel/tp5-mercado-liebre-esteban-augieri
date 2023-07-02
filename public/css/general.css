@@ -1,0 +1,154 @@
+:root {
+    --Amarillo: #EAC926;
+    --Azul: #03264C;
+    --Celeste: #1259c3;
+    --Grisoscuro: #666;
+    --Grisclaro: #ebebeb;
+    --Verde: #39b54a;
+    --tipoGrafia: "Roboto", sans-serif;
+
+}
+
+
+/* titulos y tipografia  */
+*{
+    margin: 0;
+}
+.home {
+    font-family: var(--tipoGrafia);
+    font-size: 12px;
+    background-color: var(--Grisclaro);
+
+}
+
+.home h2 {
+    font-size: 24px;
+}
+
+.precio {
+    font-size: 18px;
+}
+
+.descuentos {
+    font-size: 16px;
+}
+
+.descripciones {
+    font-size: 16px;
+}
+
+.home a {
+    text-decoration: none;
+    color: black;
+}
+
+.texto {
+    text-align: center;
+    margin: 20px ;
+}
+
+
+/* IMAGENES  */
+
+
+
+.home img {
+    width: 100%;
+
+}
+
+.logo {
+    height: 30px;
+    width: 30px;
+   
+    
+   }
+   .caja__logo{
+    text-align: left;
+    display: inline-block; 
+    margin: 20px 20px 20px 40px ;
+   }
+
+
+/* header */
+
+.home header {
+    background-color: var(--Amarillo);
+
+
+}
+.caja__input{
+    display: inline-block;
+    text-align: left;
+   margin: 0px 0px 0px 20px;
+    
+}
+
+
+.home__header__nav--menu ul li {
+    list-style: none;
+  
+
+}
+
+.home__header__nav--menu ul {
+    padding: 0px 0px 0px 0px;
+    margin: 10px 0px ;
+   
+
+}
+
+
+.bueger-menu {
+    background-color: var(--Celeste);
+    padding: 5px 7px;
+    width: 10px;
+    border-radius: 10%;
+    color: white;
+    position: relative;
+    margin: auto;
+    top: -10px;
+    
+
+
+
+}
+
+.lupa {
+    background-color: var(--Grisclaro);
+    border-radius: 10%;
+    margin: 0px 0px 0px 20px;
+    
+ 
+    
+}
+
+
+/* footer */
+
+
+.home__footer {
+    text-align: center;
+    background-color: white;
+
+}
+
+.home__footer i{
+    color: var(--Celeste);
+    font-size: 20px;
+    margin: 10px;
+}
+.home__footer div p{
+    color: var(--Grisoscuro);
+   margin: 0px 20px 0px 20px;
+}
+
+
+.home__footer div{
+    margin: 30px ;
+}
+.copy{
+    text-align: left;
+    padding: 20px;
+    margin: 0;
+}
