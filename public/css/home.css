@@ -1,0 +1,260 @@
+/* header */
+
+.home header {
+    background-color: var(--Amarillo);
+
+
+}
+.caja__logo {
+    text-align: left;
+    display: inline-block;
+    margin: 20px 20px 20px 40px;
+}
+.logo {
+    height: 30px;
+    width: 30px;
+}
+
+.caja__input {
+    display: inline-block;
+    text-align: left;
+    margin: 0px 5px 0px 20px;
+    width: 100%;
+}
+
+.lupa {
+    background-color: var(--Grisclaro);
+    border-radius: 10%;
+}
+
+
+
+.home__header__nav--menu ul li {
+    list-style: none;
+}
+
+.home__header__nav--menu ul {
+    padding: 0px 0px 0px 0px;
+    margin: 10px 0px;
+}
+
+.home__header__nav--login ul li {
+    list-style: none;
+
+
+}
+
+.home__header__nav--login ul {
+    padding: 0px 0px 0px 0px;
+    margin: 10px 0px;
+}
+
+.home__header__nav--menu {
+    display: none;
+}
+
+.home__header__nav--login {
+    display: none;
+}
+
+.bueger-menu {
+    background-color: var(--Celeste);
+    padding: 5px 7px;
+    width: 10px;
+    border-radius: 10%;
+    color: white;
+    position: relative;
+    margin: auto;
+    top: -10px;
+}
+
+.home img {
+    width: 100%;
+}
+
+/* main */
+
+/* tarjetas del main */
+.home__main__caja--padre {
+    width: 90%;
+    padding: 15px;
+}
+
+.home__main__div--caja1 {
+    background-color: #ffff;
+    margin-bottom: 10px;
+}
+
+.home__main__div--hijo {
+    border-top: 1px solid var(--Grisclaro);
+    padding: 10px 20px 20px 20px;
+}
+
+.descripciones {
+    margin-top: 30px;
+    color: var(--Grisoscuro);
+    display: none;
+}
+
+.home__main__div--hijo i {
+    border: 1px solid var(--Verde);
+    padding: 8px 20px 20px 3px;
+    border-radius: 100%;
+    color: var(--Verde);
+    font-size: 15px;
+}
+
+
+/* footer */
+
+
+.home__footer {
+    text-align: center;
+    background-color: white;
+}
+
+.home__footer i {
+    color: var(--Celeste);
+    font-size: 20px;
+    margin: 10px;
+}
+
+.home__footer div p {
+    color: var(--Grisoscuro);
+    margin: 0px 20px 0px 20px;
+}
+
+
+.home__footer div {
+    margin: 30px;
+}
+
+.copy {
+    text-align: left;
+    padding: 20px;
+    margin: 0;
+}
+
+
+
+/* tablet */
+
+
+@media (min-width: 361px) {
+
+
+    /* header */
+         
+   
+
+    .logo {
+        height: 60px;
+        width: 60px;
+    }
+    
+    .home__header__nav--menu {
+        display: list-item;
+    }
+
+
+    .home__header__nav--menu ul {
+        margin-bottom: 0px;
+    }
+
+    .home__header__nav--login {
+        display: list-item;
+    }
+
+    .home__header__nav--login ul {
+        padding-bottom: 10px;
+    }
+
+    .bueger-menu {
+        display: none;
+    }
+
+    .caja__input {
+         position: relative;
+    }
+
+    .lupa {
+        background-color: var(--Grisclaro);
+        border-radius: 10%;
+    }
+      
+     /* main  */
+     
+     .home__main__div--caja1{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }  
+
+    .descripciones {
+        margin-top: 30px;
+        color: var(--Grisoscuro);
+        display: list-item;
+        list-style: none;
+    }
+
+    
+    
+   
+}
+
+
+@media (min-width: 769px){
+     /* header */
+     
+    
+
+     .logo {
+        height: 60px;
+        width: 60px;
+    }
+    
+    .home__header__nav--menu {
+        display: list-item;
+
+    }
+
+    .home__header__nav--menu ul {
+        margin-bottom: 0px;
+    }
+
+    .home__header__nav--login {
+        display: list-item;
+    }
+
+    .home__header__nav--login ul {
+        padding-bottom: 10px;
+
+    }
+
+    .bueger-menu {
+        display: none;
+    }
+
+    .caja__input {
+         position: relative;
+    }
+
+    .lupa {
+        background-color: var(--Grisclaro);
+        border-radius: 10%;
+    }
+
+
+    /* main  */
+
+    .home__main__div--caja1{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }  
+
+    .descripciones {
+        margin-top: 30px;
+        color: var(--Grisoscuro);
+        display: list-item;
+        list-style: none;
+    }
+    
+    
+} 
