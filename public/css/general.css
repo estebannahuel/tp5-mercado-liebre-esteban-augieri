@@ -13,6 +13,8 @@
 /* titulos y tipografia  */
 *{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .home {
     font-family: var(--tipoGrafia);
@@ -23,17 +25,23 @@
 
 .home h2 {
     font-size: 24px;
-    margin: 20px;
+    margin: 20px 30px;
     text-align: left;
     color: var(--Grisoscuro);
 }
 
 .precio {
     font-size: 18px;
+    margin-right: 10px;
+    font-weight: 600;
+ 
 }
 
 .descuentos {
+    color: var(--Verde);
     font-size: 16px;
+   position: relative;
+   top: 2px;
 }
 
 .descripciones {
@@ -51,6 +59,13 @@
     padding-bottom: 20px;
     
     
+}
+img{
+    width: 100%;
+}
+
+li{
+    list-style: none;
 }
 
 
