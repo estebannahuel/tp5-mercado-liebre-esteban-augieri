@@ -3,14 +3,17 @@
 
 .home__main__caja--padre {
 
-    width: 320px;
-    padding: 10px;
+    display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 10px;
 
 }
 
 
 .home__main__div--caja1 {
-
+     width: 320px;
     background-color: #ffff;
     margin-bottom: 10px;
 }
