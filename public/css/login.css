@@ -1,0 +1,70 @@
+.formulario__login{
+   width: 320px;
+   padding: 20px ;
+}
+.formulario__login input{
+    margin-bottom:30px ;
+}
+
+.boton__enviar{
+    width: 100%;
+    height: 30px;
+    background-color: var(--Celeste);
+    border-radius: 5px;
+}
+
+
+
+@media (min-width:768px){
+
+    .caja__login{
+        display: flex;
+        justify-content: center;
+    }
+    .formulario__login{
+        width: 500px;
+        padding: 20px ;
+     }
+     .formulario__login input{
+        width: 455px;
+         margin-bottom:30px ;
+     }
+     
+     .boton__enviar{
+         width: 100%;
+         height: 30px;
+         background-color: var(--Celeste);
+         border-radius: 5px;
+     }
+     .boton__enviar a{
+        color: white;
+     }
+     
+}
+
+@media (min-width:1024px){
+    
+    .caja__login{
+        display: flex;
+        justify-content: center;
+    }
+    .formulario__login{
+        width: 700px;
+        padding: 20px ;
+     }
+     .formulario__login input{
+        width: 100%;
+         margin-bottom:30px ;
+     }
+     
+     .boton__enviar{
+         width: 100%;
+         height: 30px;
+         background-color: var(--Celeste);
+         border-radius: 5px;
+     }
+     .boton__enviar a{
+        color: white;
+        width: 100%;
+     }
+}

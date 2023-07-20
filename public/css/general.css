@@ -16,14 +16,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-.home {
+body {
     font-family: var(--tipoGrafia);
     font-size: 12px;
     background-color: var(--Grisclaro);
 
 }
 
-.home h2 {
+ h2 {
     font-size: 24px;
     margin: 20px 30px;
     text-align: left;
@@ -48,7 +48,7 @@
     font-size: 16px;
 }
 
-.home a {
+a {
     text-decoration: none;
     color: black;
 }
@@ -68,7 +68,11 @@ li{
     list-style: none;
 }
 
-
+h4{
+    margin: 10px;
+    font-size: 15px;
+   
+}
 
 
 
