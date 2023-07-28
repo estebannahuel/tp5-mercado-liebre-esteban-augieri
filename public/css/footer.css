@@ -59,6 +59,12 @@
 
 
 @media (min-width:1024px){
+     
+    .home__footer__article{
+        display: flex;
+        align-items: center;
+    }
+
     .home__footer {
         text-align: center;
         background-color: white;
